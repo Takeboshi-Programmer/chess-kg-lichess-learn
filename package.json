@@ -1,0 +1,14 @@
+{
+  "name": "chess-kg-lichess-learn",
+  "version": "1.0.0",
+  "description": "Lichess Learn data, lesson engine and UI, icons and fetch script for chess.kg (AGPL-3.0-or-later)",
+  "license": "AGPL-3.0-or-later",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "fetch": "node tools/fetch-lichess-learn.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}
